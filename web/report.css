@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  margin: auto;
+  background-color: pink;
+}
+
+.profile .profile-title {
+  float: right;
+}
