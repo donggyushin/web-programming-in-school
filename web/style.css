@@ -1,0 +1,12 @@
+span {
+  color: red;
+}
+
+strong {
+  color: blue;
+}
+
+.none-meaning {
+  background-color: skyblue;
+  padding: 20px;
+}
