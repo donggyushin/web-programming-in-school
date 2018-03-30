@@ -8,7 +8,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 80vh;
         flex-wrap: wrap;
       }
 
@@ -41,6 +40,7 @@
         justify-content: flex-end;
         width: 100%;
         height: 100px;
+        padding-bottom: 50px;
       }
 
 
@@ -49,13 +49,20 @@
         color: black;
       }
 
+      .download {
+        padding: 50px;
+      }
+      .download a {
+        color: black;
+      }
+
     </style>
   </head>
   <body>
     <div class="upper">
       <div class="upper-nav">
-        <a class="upper-nav__text" target="_blank" href="www.naver.com">Naver</a>
-        <a class="upper-nav__text" target="_blank" href="www.google.com">google</a>
+        <a class="upper-nav__text" target="_blank" href="https://www.naver.com/">Naver</a>
+        <a class="upper-nav__text" target="_blank" href="https://www.google.co.kr/?gfe_rd=cr&dcr=0&ei=BIe9WpM288LwB8mcuJgC">google</a>
       </div>
     </div>
 
@@ -113,6 +120,10 @@
         </tbody>
       </table>
     </main>
+
+    <footer class="download">
+      <a href="./media/fruit.jpg" download>download fruit img</a>
+    </footer>
 
   </body>
 </html>
