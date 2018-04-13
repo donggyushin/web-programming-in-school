@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>make selector</title>
+    <style media="screen">
+        .container {
+          width: 400px;
+          padding: 10px;
+        }
+
+        .subtitle .subtitle__strong {
+          color:red;
+          background-color: yellow;
+        }
+
+        .list .list__ul {
+          background-color: rgb(125, 226, 169);
+        }
+
+        .list .list__ul .list__css {
+          background-color: rgb(217, 116, 191);
+        }
+
+        .warning .warning__text {
+          color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h3>Web Programming</h3>
+      </div>
+      <div class="subtitle">
+        <p><strong class="subtitle__strong">subject</strong> for second semester</p>
+      </div>
+      <div class="list">
+        <ul class="list__ul">
+          <li>HTML5</li>
+          <li class="list__css">CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+      </div>
+      <div class="warning">
+        <p class="warning__text">under 60 is F</p>
+      </div>
+    </div>
+  </body>
+</html>
