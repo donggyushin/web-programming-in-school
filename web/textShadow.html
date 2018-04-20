@@ -9,15 +9,28 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
+        flex-direction: column;
       }
 
       .textShadow{
         font-size: 100px;
         text-shadow: 0 15px 15px black;
       }
+
+      .boxShadow{
+        width: 300px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 5px 15px black;
+      }
     </style>
   </head>
   <body>
     <p class="textShadow">Drop Shadow</p>
+    <div class="boxShadow">
+        <span>box shadow</span>
+    </div>
   </body>
 </html>
