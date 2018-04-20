@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>box model</title>
+    <style media="screen">
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url(./media/tinyEmoticon.PNG);
+      background-repeat: repeat-y;
+      background-position: center center;
+    }
+      .container{
+        background-color: rgb(168, 244, 236);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .boxModel {
+        background-color: rgb(204, 134, 237);
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding: 10px;
+      }
+      .borderRadiusSample{
+        background-color: rgb(199, 189, 219);
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="boxModel">
+        <span>content</span>
+      </div>
+    </div>
+    <hr>
+    <p style="border:3px solid blue">3px solid</p>
+    <div class="borderRadiusSample">
+        <span>border-radius 20px</span>
+    </div>
+    <p style="border:3px dotted blue">3px dotted</p>
+  </body>
+</html>
