@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animation assignment</title>
+    <style media="screen">
+      img{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+      }
+      #spade2{
+        z-index: 0;
+        animation-name: scatter__2;
+        animation-duration: 1s;
+      }
+      #spade3{
+        left: 60px;
+        top: 60px;
+        z-index: 1;
+        animation-name: scatter__3;
+        animation-duration: 2s;
+      }
+      #spade7{
+        left: 120px;
+        top: 120px;
+        z-index: 2;
+        animation-name: scatter__7;
+        animation-duration: 3s;
+      }
+      #spadeA{
+        left: 180px;
+        top: 180px;
+        animation-name: scatter__A;
+        animation-duration: 4s;
+        z-index: 3;
+      }
+      @keyframes scatter__A {
+        from{
+          left: 100%;
+          top: 100%;
+        }
+        to{
+          left: 180px;
+          top:180px;
+        }
+      }
+      @keyframes scatter__2 {
+        from {
+          display: none;
+          left: 100%;
+          top: 100%;
+        }
+        to {
+          display: flex;
+          left: 10px;
+          top: 10px;
+        }
+      }
+      @keyframes scatter__3 {
+        from {
+          display: none;
+          left: 100%;
+          top: 100%;
+        }
+        to{
+          left: 60px;
+          top: 60px;
+        }
+      }
+      @keyframes scatter__7 {
+        from {
+          display: none;
+          left: 100%;
+          top: 100%;
+        }
+        to{
+          left: 120px;
+          top: 120px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img id="spade2" src="./media/spade-2.png" alt="">
+    <img id="spade3" src="./media/spade-3.png" alt="">
+    <img id="spade7" src="./media/spade-7.png" alt="">
+    <img id="spadeA" src="./media/spade-A.png" alt="">
+  </body>
+</html>

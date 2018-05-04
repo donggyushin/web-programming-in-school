@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <title>position</title>
     <style media="screen">
+      span{
+        z-index: 3;
+      }
       .deco__star {
         position: absolute;
         left: 147px;
@@ -14,13 +17,31 @@
         left: 190px;
         top:200px;
       }
+      .jesus{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+      }
+      .tree{
+        position: absolute;
+        left:0px;
+        z-index: 1;
+      }
+      .emoticon{
+        position: absolute;
+        left: 170px;
+        top:300px;
+        z-index: 2;
+      }
     </style>
   </head>
   <body>
     <h3>Merry Christmas!</h3>
     <hr>
-      <img src="./media/christmas.png" alt="">
+      <img src="./media/tinyEmoticon.png" alt="" class="emoticon">
+      <img src="./media/christmas.png" alt="" class="tree">
       <span class="deco__star">star</span>
       <span class="deco__socks">socks</span>
+      <span class="jesus">Jesus was borned</span>
   </body>
 </html>

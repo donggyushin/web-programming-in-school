@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Decorated table with css</title>
+    <style media="screen">
+      th{
+        width: 100px;
+        height: 40px;
+        border: 1px solid black;
+      }
+      td{
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        border: 1px solid black;
+      }
+      tr:hover{
+        background-color: #877979;
+      }
+      table{
+        border-collapse: collapse;
+      }
+      h3{
+        position: relative;
+        left: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>first semester grade</h3>
+    <hr>
+    <table>
+      <thead>
+        <tr>
+          <th>name</th><th>html</th><th>css</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>gitae</td><td>80</td><td>70</td>
+        </tr>
+        <tr>
+          <td>jaemun</td><td>95</td><td>99</td>
+        </tr>
+        <tr>
+          <td>byeung-eun</td><td>85</td><td>90</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>sum</th><th>310</th><th>249</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
